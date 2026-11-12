@@ -1,0 +1,11 @@
+# Dependências Python dos scripts de simulação (Experimento 1)
+# O Paho 1.x é exigido: os scripts usam mqtt_client.Client(client_id=...) e callbacks sem 'properties'.
+paho-mqtt<2.0
+
+# Cliente MQTT-SN (módulo mqttsn.MQTTSNclient):
+# Não é distribuído neste repositório. Informe aqui a origem/versão utilizada (ex.: o cliente Python
+# que acompanha o Eclipse Paho / RSMB) antes de publicar.
+
+# Versões dos brokers usados (instalados à parte, não via pip):
+#   Eclipse Mosquitto 2.0.18
+#   RSMB 1.3.0.2

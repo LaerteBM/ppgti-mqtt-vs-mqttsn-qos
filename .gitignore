@@ -1,0 +1,21 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+*.log
+# LaTeX
+*.aux
+*.log
+*.out
+*.toc
+*.bbl
+*.blg
+*.synctex.gz
+# PlatformIO / Arduino
+.pio/
+.vscode/
+build/
+# Sistema
+.DS_Store
+Thumbs.db
